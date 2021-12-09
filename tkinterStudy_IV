@@ -1,0 +1,19 @@
+import tkinter as tk
+
+root = tk.Tk()
+root.title("Study tkinter IV")
+
+upFrame = tk.Frame(root, )
+upFrame.pack(side=tk.TOP)
+leftFrame = tk.Frame(root, )
+leftFrame.pack(side=tk.LEFT())
+rightFrame = tk.Frame(root, )
+rightFrame.pack(side=tk.RIGHT())
+buttomFrame = tk.Frame(root, )
+buttomFrame.pack(side=tk.BOTTOM())
+
+uptext = tk.Label(upFrame, text="IV")
+uptext.grid(column=0, row=0)
+
+bt1 = tk.Button(leftFrame, text="I   ")
+bt1.pack()
