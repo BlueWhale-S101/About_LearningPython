@@ -1,1 +1,1 @@
-I will put my datas from my study _`Python`_.
+I will put my datas from my studying of _`Python`_.
